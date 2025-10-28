@@ -1,33 +1,33 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "GBPUAT Notes",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+     "A platform for storing,organizing and sharing academic notes and Pyqs for GBPUAT University students.",    
+subDescription: [
+      "Built a scalable application for university students.",
+      "Over 500 active users in the application.",
+      "Uses authentication to allow only university students to upload data.",
+      "Student authentication using Student Id and email provided from university.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/accessories.jpg",
+    href: "http://gbpuatnotes.app",
+    logo: "/assets/projects/GBPUATNotes.png",
+    image: "/assets/projects/GBPUATNotes.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "appwrite",
+        path: "/assets/logos/Appwrite.svg",
       },
       {
         id: 4,
@@ -231,7 +231,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/pranjay-dwivedi-dev20/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
@@ -241,41 +241,41 @@ export const mySocials = [
   },
 ];
 
-export const experiences = [
-  {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
-    contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
-  },
-  {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
-];
+// export const experiences = [
+//   {
+//     title: "Software Developer",
+//     job: "Security & Defense Projects",
+//     date: "2021-2023",
+//     contents: [
+//       "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
+//       "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
+//       "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
+//       "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
+//       "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+//     ],
+//   },
+//   {
+//     title: "Back-End Developer",
+//     job: "Car Manufacture",
+//     date: "2023-2024",
+//     contents: [
+//       "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
+//       "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
+//       "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
+//       "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
+//       "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+//     ],
+//   },
+//   {
+//     title: "Freelance Developer",
+//     job: "Self-Employed",
+//     date: "2025-Present",
+//     contents: [
+//       "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
+//       "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+//     ],
+//   },
+// ];
 export const reviews = [
   {
     name: "Jack",
