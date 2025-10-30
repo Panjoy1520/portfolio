@@ -14,45 +14,53 @@
   --color-orange: #cc6033;
   --color-sand: #d6995c;
   --color-coral: #ea4884;
-  --animate-orbit: orbit 50s linear infinite;
-  @keyframes orbit {
-    0% {
-      transform: rotate(calc(var(--angle) * 1deg))
-        translateY(calc(var(--radius) * 1px)) rotate(calc(var(--angle) * -1deg));
-    }
-    100% {
-      transform: rotate(calc(var(--angle) * 1deg + 360deg))
-        translateY(calc(var(--radius) * 1px))
-        rotate(calc((var(--angle) * -1deg) - 360deg));
-    }
-  }
+  
+  
   --animate-marquee: marquee 50s linear infinite;
   --animate-marquee-vertical: marquee-vertical 50s linear infinite;
 
   @keyframes marquee {
-    from {
+    0% {
       transform: translateX(0);
     }
-    to {
-      transform: translateX(calc(-100% - var(--gap)));
+    100% {
+      transform: translateX(-100%); 
     }
   }
 
-  @keyframes marquee-vertical {
-    from {
-      transform: translateY(0);
-    }
+
+}
+
+@theme inline {
+  --animate-scroll: scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite;
+
+  @keyframes scroll {
     to {
-      transform: translateY(calc(-100% - var(--gap)));
+      transform: translate(calc(-50% - 0.5rem));
     }
   }
 }
+
+
+.scroller-content {
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+
+
 body {
   background: #030412;
   font-family: "Funnel Display", sans-serif;
   color: white;
   scroll-behavior: smooth;
   overflow-x: hidden;
+}
+
+.animate-scroll {
+  animation: scroll var(--animation-duration, 40s) linear infinite
+    var(--animation-direction, forwards);
 }
 
 .c-space {
