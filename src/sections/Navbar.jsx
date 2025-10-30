@@ -4,7 +4,7 @@ function Navigation() {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
-        <a className="nav-link" href="#home">
+        <a className="nav-link" href="/">
           Home
         </a>
       </li>
