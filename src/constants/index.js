@@ -151,20 +151,21 @@ subDescription: [
 ];
 
 export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
+  
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/pranjay-dwivedi-dev20/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: "/assets/socials/linkedin.png",
   },
   {
-    name: "Instagram",
+    name: "X",
+    href: "https://x.com/Pranjoy22",
+    icon: "/assets/socials/x.svg",
+  },
+  {
+    name: "gmail",
     href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
+    icon: "/assets/socials/gmail.png",
   },
 ];
 
