@@ -38,23 +38,23 @@ subDescription: [
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Fit-AI ",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "An AI based fitness recommendation service to give personalized recommendation based on fitness activity.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
+      "Integrated Google Gemini API for getting responses.",
+      "Implemented authorization using using IAM as keycloak.",
       "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Implemented a Microservice based architecture for handling large traffic.",
     ],
-    href: "",
+    href: "https://fit-ai-frontend.vercel.app/",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/fit_ai.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "Spring Boot",
+        path: "/assets/logos/spring-boot.png",
       },
       {
         id: 2,
@@ -63,8 +63,8 @@ subDescription: [
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "Kafka",
+        path: "/assets/logos/Apache_Kafka.png",
       },
       {
         id: 4,
@@ -75,33 +75,32 @@ subDescription: [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Farm Rental",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A modern, interactive web application build for renting farming equipment and services .",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
+      "Developed a fully interactive Single page application for renting farming equipment.",
+      "Implemented clean frontend architecture using React and redux",
       "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/farmRental.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "JavaScript",
+        path: "/assets/logos/js.png",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "VITE",
+        path: "/assets/logos/vitejs.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 4,
@@ -112,28 +111,28 @@ subDescription: [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "AI Based Email Assistant",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "An AI based email assistant chrome extension that can be used to edit and generate responses in real time.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Built a powerful chrome exyension that works in browser itself.",
+      "Used google Gemini API for the backend.",
+      "Implemented a frontend button for the user to take action.",
+      "Optimized performance by using Spring boot as the backend framework.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/ai-email.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "Java",
+        path: "/assets/logos/java.png",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Spring Boot",
+        path: "/assets/logos/spring-boot.png",
       },
       {
         id: 3,
@@ -142,8 +141,8 @@ subDescription: [
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "Github",
+        path: "/assets/logos/github.svg",
       },
     ],
   },
@@ -164,7 +163,7 @@ export const mySocials = [
   },
   {
     name: "gmail",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "http://mailto:pdevworks@gmail.com",
     icon: "/assets/socials/gmail.png",
   },
 ];
